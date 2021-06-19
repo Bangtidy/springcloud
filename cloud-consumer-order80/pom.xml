@@ -23,6 +23,11 @@
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
+
         <!--引入自己定义的api调用包，可以使用payment支付entity-->
         <dependency>
             <groupId>com.bangtidy.springcloud</groupId>
